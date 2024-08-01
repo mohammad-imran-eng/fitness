@@ -1,0 +1,119 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+header {
+    width: 1060px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title {
+    font-weight: 800;
+    color: rgba(230, 83, 60, 1);
+    font-style: italic;
+}
+.nav-items {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 46px;
+}
+.nav-items li {
+    list-style: none;
+}
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+.nav-items a:hover {
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+}
+.banner-desc h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 60px;
+}
+.banner-img {
+    background: url(../images/Images\ 2.png);
+    height: 580px;
+    width: 349px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-desc .diff {
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Playwrite IT Trad", cursive;
+    line-height: 93.6px;
+}
+ .banner-desc-btn button {
+    border: none;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    transition: 500ms;
+}
+.banner-desc-btn button:hover {
+    background: rgba(230, 83, 60, 1);
+    color: white;
+}
+.banner-img .first  {
+    background: rgba(48, 48, 48, 0.54);
+    color: white;
+    line-height: 50%;
+    height: 60px;
+    width: 120px;
+    padding: 20px 40px;
+    border-radius: 12px;
+    position: absolute;
+    top: 340px;
+    left: -100px;
+}
+
+.banner-img .second  {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    line-height: 50%;
+    height: 60px;
+    width: 140px;
+    padding: 20px;
+    border-radius: 12px;
+    position: absolute;
+    top: 127px;
+    left: 237px;
+}
+.circle {
+    background: rgba(230, 83, 60, 1);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 158px;
+    left: -91px;
+}
+
+
+
+/* Responsive our website */
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+    .nav-items {
+        flex-direction: column;
+    }
+    .banner-container {
+        flex-direction: column;
+    }
+  }
