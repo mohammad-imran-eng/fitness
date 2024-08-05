@@ -547,6 +547,9 @@ footer {
         grid-template-columns: repeat(2,1fr);
         row-gap: 10px;
     }
+    .bmi-input {
+        grid-template-columns: repeat(1,1fr);
+    }
     
   }
 
