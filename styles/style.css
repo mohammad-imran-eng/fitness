@@ -601,6 +601,7 @@ footer {
     }
     .bmi-input {
         width: 25%;
+        overflow-x: hidden;
     }
     
     .bmi-right p {
