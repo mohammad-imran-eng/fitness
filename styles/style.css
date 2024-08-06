@@ -599,15 +599,10 @@ footer {
     .bmi-right {
         margin-top: 20px;
     }
-    .bmi-input input {
-        width: 80%;
-    }
     .bmi-input {
-        width: 49%;
+        width: 30%;
     }
-    .bmi-input input {
-        grid-template-columns: repeat(1,1fr);
-    }
+    
     .bmi-right p {
         width: 45%;
     }
