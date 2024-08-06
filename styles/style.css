@@ -606,7 +606,7 @@ footer {
         width: 49%;
     }
     .bmi-input input {
-        grid-template-rows: repeat(5,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .bmi-right p {
         width: 45%;
