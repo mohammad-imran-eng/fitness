@@ -501,13 +501,13 @@ footer {
 .line {
     width: 1060px;
     height: 1px;
-    background: hwb(0 5% 12% / 0.1);
+    background: hwb(0 98% 0% / 0.1);
     margin: 0 auto;
 }
 .allright-reseve {
-    margin-bottom: 10px;
-   color:rgba(255, 255, 255, 0.5);
+    color:rgba(255, 255, 255, 0.5);
     text-align: center;
+    padding: 10px 0;
 }
 
   /* FOOTER SECTION END HERE  */
@@ -546,8 +546,9 @@ footer {
         grid-template-columns: repeat(2,1fr);
         row-gap: 10px;
     }
-    .bmi-input {
-        grid-template-columns: repeat(1,1fr);
+    
+    .bmi-container {
+        flex-direction: column;
     }
     
   }
@@ -618,6 +619,9 @@ footer {
     .teamImg {
         grid-template-columns: repeat(1,1fr);
         row-gap: 10px;
+    }
+    footer {
+        padding-left: 10px;
     }
     .footer-container {
         flex-direction: column;
