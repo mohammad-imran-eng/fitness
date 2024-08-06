@@ -623,6 +623,24 @@ footer {
     .footer-container {
         flex-direction: column;
     }
+    .position1 {
+        display: none;
+    }
+    .position2 {
+        display: none;
+    }
+    .position3 {
+        display: none;
+    }
+    .position4 {
+        display: none;
+    }
+    .position5 {
+        display: none;
+    }
+    .position6 {
+        display: none;
+    }
     
   }
 
