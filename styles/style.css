@@ -1,7 +1,6 @@
 body {
     font-family: "Inter", sans-serif;
     background-image: linear-gradient(315deg, #080714 0%, #000000 74%);
-    overflow-x: hidden;
 }
 
 /* Similer code */
@@ -47,6 +46,11 @@ nav {
     background-color: rgba(230, 83, 60, 1);
     border-radius: 46px;
 }
+.nav-active {
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+}
+
 .banner-container {
     display: flex;
     justify-content: space-between;
@@ -78,6 +82,10 @@ nav {
 .banner-desc-btn button:hover {
     background: rgba(230, 83, 60, 1);
     color: white;
+}
+.banner-active {
+    background: rgba(230, 83, 60, 1);
+    color: white
 }
 .banner-img .first  {
     background: rgba(48, 48, 48, 0.54);
@@ -167,13 +175,55 @@ nav {
     padding: 16px 40px 16px 40px;
     border-radius: 42px;
     transition: 500ms;
-}
-.join button:hover {
     background: rgba(230, 83, 60, 1);
     color: white;
 }
+.join button:hover {
+    background-color: white;
+    color: black;
+}
 
  /* HABIT SECTION END HERE  */
+
+
+ /* suppliment section start here */
+
+
+ .suppliment {
+    max-width: 1060px;
+    margin: 0 auto;
+ }
+
+.suppliment .heading {
+    color: white;
+}
+.suppliment p {
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.suppliment div {
+    margin: 30px 0;
+}
+.suppliment img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.suppliment .img-section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.suppliment button {
+    background: rgba(230, 83, 60, 1);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 46px;
+}
+
+ /* suppliment section end here */
 
   /* EXCERCISE SECTION START HERE  */
 .exercise {
@@ -321,6 +371,7 @@ nav {
 }
  /* EXCERCISE SECTION END HERE  */
 
+
  /* BMI-CALCULATOR SECTION START HERE  */
 .bmi-calculator {
     background: rgba(34, 34, 34, 1);
@@ -357,7 +408,7 @@ table td {
 .bmi-input {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap: 10px;
 }
 
 .bmi-input .five {
@@ -640,6 +691,14 @@ footer {
     }
     .position6 {
         display: none;
+    }
+    .line {
+        margin-top: 5px;
+        width: 500px;
+        margin: 0 auto;
+    }
+    .suppliment .img-section {
+        grid-template-columns: repeat(1,1fr);
     }
     
   }
