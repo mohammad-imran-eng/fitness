@@ -429,7 +429,6 @@ table td {
     background: rgba(255, 255, 255, 0.1);
     border: none;
     height: 40px;
-    width: 100%;
     border-radius: 8px;
 }
 .bmi-right p {
@@ -665,7 +664,7 @@ footer {
     .bmi-input {
         display: flex;
         flex-direction: column;
-        width: 28%;
+        width: auto;
     }
 
 
