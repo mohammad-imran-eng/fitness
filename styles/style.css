@@ -221,8 +221,19 @@ nav {
     color: white;
     padding: 10px 20px;
     border-radius: 46px;
+    font-weight: bold;
+    
 }
-
+.suppliment button:hover {
+    background: white;
+    color: black;
+}
+.suppliment .price {
+    color:rgba(255, 255, 255, 0.7);
+}
+.suppliment .text {
+    color: white;
+}
  /* suppliment section end here */
 
   /* EXCERCISE SECTION START HERE  */
