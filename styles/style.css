@@ -222,7 +222,6 @@ nav {
     padding: 10px 20px;
     border-radius: 46px;
     font-weight: bold;
-    
 }
 .suppliment button:hover {
     background: white;
@@ -704,9 +703,7 @@ footer {
         display: none;
     }
     .line {
-        margin-top: 5px;
-        width: 500px;
-        margin: 0 auto;
+        display: none;
     }
     .suppliment .img-section {
         grid-template-columns: repeat(1,1fr);
