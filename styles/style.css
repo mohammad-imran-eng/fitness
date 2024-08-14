@@ -660,11 +660,19 @@ footer {
     .bmi-right {
         margin-top: 20px;
     }
+  
+
     .bmi-input {
-        width: 27%;
-        overflow-x: hidden;
-        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 28%;
     }
+
+
+
+
+
+
     
     .bmi-right p {
         width: 45%;
