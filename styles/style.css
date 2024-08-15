@@ -386,6 +386,8 @@ nav {
 .bmi-calculator {
     background: rgba(34, 34, 34, 1);
     padding: 40px 0;
+    width: 1060px;
+    margin: 0 auto;
 
 }
 .bmi-calculator h1 {
@@ -396,8 +398,6 @@ nav {
 .bmi-container {
     display: flex;
     justify-content: space-between;
-    width: 1060px;
-    margin: 0 auto;
 }
 .table-container {
     margin-top: 50px;
@@ -667,11 +667,13 @@ footer {
         width: auto;
     }
 
-
-
-
-
-
+    .bmi-calculator {
+        width: 50%;
+        padding: 40px;
+    }
+    .bmi-calculator .heading {
+        margin-left: 10px;
+    }
     
     .bmi-right p {
         width: 45%;
