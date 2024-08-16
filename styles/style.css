@@ -410,7 +410,7 @@ table tbody td{
     background-color: #000;
     padding: 40px 0px;
 }
-.bim-wrapper{
+.bmi-wrapper{
     background-color: #222222;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -492,7 +492,6 @@ table tbody td{
     background: white;
     color: black;
 }
-/* bmi calculator */
 
 
  /* BMI-CALCULATOR SECTION END HERE  */
@@ -665,7 +664,13 @@ footer {
         width: auto;
     }
 
-    
+    .bmi-input, .bmi-select, .bmi-select2 {
+        display: block;
+        width: 49%;
+    }
+    .bmi-item2 p {
+        width: 49%;
+    }
   
     .habit-img-container {
         grid-template-columns: repeat(1,1fr);
